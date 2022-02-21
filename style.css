@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+.row {
+  background-color: seashell;
+  display: flex;
+  flex-grow: 1;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 960px;
+  height: 960px;
+  align-self: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: seashell;
+}
