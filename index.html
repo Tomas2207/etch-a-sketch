@@ -8,14 +8,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h2>Choose a color</h2>
-      <button id="one">Red</button>
-      <button id="two">Green</button>
-      <button id="three">Blue</button>
-      <button id="four">Eraser</button>
-      <button id="change-tiles">Change number of tiles</button>
-      <button id="reset">Reset</button>
+    <div class="header">
+      <h1>ETCH-a-SKETCH</h1>
+    </div>
+    <div class="all-container">
+      <div class="options">
+        <h2>Choose a color</h2>
+        <button id="default"></button>
+        <button id="one"></button>
+        <button id="two"></button>
+        <button id="three"></button>
+        <button id="four">Eraser</button>
+        <!-- <button id="change-tiles">Change number of tiles</button> -->
+        <button id="reset">Reset</button>
+        <div class="slidecontainer">
+          <input
+            type="range"
+            min="16"
+            max="100"
+            class="slider"
+            id="slider"
+            value="16"
+          />
+          <div id="output"></div>
+        </div>
+        <!-- <div class="container">
+        <canvas id="color-picker"></canvas>
+        <div class="info">
+          <h3>Selected color</h3>
+          <div class="selected"></div>
+        </div>
+      </div> -->
+      </div>
     </div>
   </body>
   <script src="javascript.js"></script>
